@@ -20,12 +20,19 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
-      <div className="bg-white/70 backdrop-blur-xl border-b">
+      <div className="bg-white backdrop-blur-xl border-b">
         <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
           {/* LOGO */}
-          <Link to="/" className="flex flex-col leading-tight">
-            <span className="text-2xl font-semibold">KORYIS</span>
-            <span className="text-xs opacity-60">Intelligent Companion</span>
+          <Link to="/" className="flex items-center gap-2">
+            <img
+              src="favicon-koryis.png"
+              alt="Koryis Logo"
+              className="w-[52px] h-[52px] object-contain"
+            />
+            <div className="flex flex-col leading-tight">
+              <span className="text-2xl font-semibold">KORYIS</span>
+              <span className="text-xs opacity-60">Intelligent Companion</span>
+            </div>
           </Link>
 
           {/* DESKTOP MENU */}
