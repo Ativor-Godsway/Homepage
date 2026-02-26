@@ -42,9 +42,11 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg md:text-2xl text-gray-600 max-w-xl">
-            IC (Intelligent Companion) is an adaptive assessment platform built
-            for dyslexic learners, supporting Maths mastery through
-            personalized, responsive questioning that adapts in real time.
+            Koryis intelligent companion is designed specifically for dyslexic
+            GCSE Maths learners. By providing personalized support, IC adapts to
+            each student's unique learning style, helping them overcome
+            challenges and succeed in their GCSE maths exams with confidence and
+            ease.
           </p>
 
           {/* CTA */}
